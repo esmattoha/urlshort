@@ -1,0 +1,47 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(116, 179, 116);
+  } */
+  nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(43, 187, 43);
+    position: relative;
+  }
+  
+  .nav_head{
+    margin: 18px;
+    font-size: 38px;
+    color: #FFF;
+    font-weight: 800;
+    line-height: 80px;
+  
+  }
+  nav ul{
+    float: right;
+    margin: 13px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  a.active, a:hover{
+    background-color: rgb(50, 201, 50);
+    color: rgb(94, 22, 153);
+    box-shadow: 0 5px 2px -3px rgb(0, 0, 0);
+  }
+  

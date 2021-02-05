@@ -1,0 +1,14 @@
+<%- include('../includes/head.ejs') %>
+
+</head>
+<body>
+    <%- include('../includes/nav.ejs') %>
+
+    <form action="/login" method="POST">
+        <input type="string" id="email" name="email" placeholder="email"><br><br>
+        <input type="password" name="password" id="password" placeholder="password"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+
+      
+<%- include('../includes/end.ejs') %>     
